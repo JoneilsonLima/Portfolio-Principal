@@ -1,0 +1,205 @@
+/* contato formatação geral */
+.formulario-container {
+    width: 100%;
+    background: var(--primary-color);
+    padding: 100px 20px;
+}
+
+.formulario-content {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* FIM contato formatação geral */
+.formulario-content h1 {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 2.3em;
+    padding-bottom: 100px;
+}
+.formulario-content h1::before {
+    content: '';
+    display: inline-block;
+    position: relative;
+    bottom: 2px;
+    right: 4px;
+    height: 20px;
+    width: 20px;
+    background: var(--tertiary-color);
+}
+
+/* formulário */
+.formulario {
+    margin: 0 auto;
+    width: 100%;
+    padding: 60px;
+    background: #FFFFFF;
+    border-radius: 9px;
+    box-shadow: -10px 10px 10px rgb(0,0,0,.3);
+}
+
+label,
+input,
+textarea,
+.formulario button {
+    display: block;
+    border: none;
+}
+
+textarea {
+    min-height: 9rem;
+    resize: none;
+}
+
+input,
+textarea,
+.formulario button {
+    width: 100%;
+    font: inherit;
+    padding: 1.25rem;
+    font-weight: 700;
+}
+
+.formulario button {
+    background: var(--tertiary-color);
+    border-radius: 30px;
+    cursor: pointer;
+    color: #FFFFFF;
+    width: 150px;
+    padding: 12px 14px;
+    transition: background .3s;
+}
+
+.formulario button:hover {
+    color: var(--tertiary-color);
+    background: #FFFFFF;
+    border: 2px solid var(--tertiary-color);
+    padding: 10px 12px;
+}
+
+input,
+textarea {
+    border-bottom: 2px solid #919191;
+    margin-bottom: 3rem;
+}
+
+label[for="nome_usuario"]::after,
+label[for="sobrenome"]::after,
+label[for="email_usuario"]::after {
+    content: ' *';
+    color: var(--tertiary-color);
+}
+
+input:hover,
+input:focus,
+textarea:hover,
+textarea:focus {
+    outline: none;
+    border-color: var(--tertiary-color);
+}
+
+.flex-form {
+    display: flex;  
+    justify-content: space-between;
+}
+
+/** Media formulário **/
+@media (max-width: 800px) {
+    .formulario {
+        width: 85%;
+        padding: 30px;
+    }
+
+    .flex-form {
+        flex-direction: column;
+    }
+}
+
+/** Área de links para contato **/
+.contatos-formulario {
+    max-width: 1400px;
+    margin: 100px auto auto auto;
+    background: #FFFFFF;
+    padding: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 9px;
+    box-shadow: -10px 10px 10px rgb(0,0,0,.3);
+}
+
+.contatos-formulario a {
+    color: #000000;
+}
+
+.contatos-formulario h1 {
+    padding-bottom: 30px;
+    display: inline-block;
+    border-bottom: 2px solid #e6e4e4;
+}
+
+.contatos-formulario span {
+    font-size: .8em;
+}
+
+.contatos-formulario img {
+    width: 30%;
+}
+
+.contatos-formulario ul {
+    display: flex;
+    padding-top: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.contatos-formulario a {
+    display: inline-block;
+    transition: .3s;
+    width: 100%;
+    height: 100%;
+}
+
+.contatos-formulario ul:has(a:hover) a:not(:hover) {
+    opacity: .6;
+    scale: .98;
+}
+
+.contatos-formulario li {
+    padding: 20px 6px;
+    border-radius: 9px;
+    width: 160px;
+    height: 160px;
+    box-shadow: 0px 3px 5px rgb(0,0,0,.2);
+}
+
+.contatos-formulario li h4 {
+    color: var(--tertiary-color);
+}
+
+.contatos-formulario li a:hover {
+    color: var(--tertiary-color);
+}
+
+@media(max-width: 600px) {
+    .contatos-formulario li {
+        width: 90%;
+    }
+
+    .contatos-formulario img {
+        width: 40px;
+    }
+
+    .contatos-formulario {
+        width: 90%;
+        margin: 100px auto;
+    }
+
+    .contatos-formulario ul {
+        gap: 20px;
+    }
+
+    .formulario-container {
+        padding: 100px 0;
+    } 
+}
