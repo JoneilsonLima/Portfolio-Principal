@@ -1,4 +1,4 @@
-<h1 align="center"><a href="https://imaginative-alfajores-3eddb8.netlify.app/index.html" target="_blank">Portfólio Web</a></h1>
+<h1 align="center"><a href="https://portfolio-joneilson.netlify.app/" target="_blank">Portfólio Web</a></h1>
 
 <h3 align="center">
     <p align="center">
@@ -7,7 +7,7 @@
   </p>
 </h3>
 
-Você pode acessar o projeto <a href="https://imaginative-alfajores-3eddb8.netlify.app/index.html" target="_blank">clicando aqui:</a>
+Você pode acessar o projeto <a href="https://portfolio-joneilson.netlify.app/" target="_blank">clicando aqui:</a>
 
 <h1>Uma prévia do que temos aqui:</h1>
 
