@@ -1,52 +1,52 @@
 :root {
-    --primary-color: #4b1646;
-    --secondary-color: #334F53;
-    --tertiary-color: #45936C;
-    --bg-color2: #E5EAD4;
+  --primary-color: #4b1646;
+  --secondary-color: #334f53;
+  --tertiary-color: #45936c;
+  --bg-color2: #e5ead4;
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    padding-top: 5.75rem;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 5.75rem;
 }
 
 body::-webkit-scrollbar {
-    width: 10px;            
-  }
-  
-  body::-webkit-scrollbar-track {
-    background: #f1f1f1;      
-  }
-  
-  body::-webkit-scrollbar-thumb {
-    background-color: var(--tertiary-color);    
-    border-radius: 20px;  
-  }
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--tertiary-color);
+  border-radius: 20px;
+}
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .icone {
-    width: 20px;
+  width: 20px;
 }
 
 i {
-    font-size: 25px;
-    color: #111111;
-    transition: .3s;
+  font-size: 25px;
+  color: #111111;
+  transition: 0.3s;
 }
 
 i:hover {
-    color: var(--tertiary-color);
+  color: var(--tertiary-color);
 }
